@@ -5,6 +5,7 @@ import Body from './Body';
 
 
 import './App.css';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Header />
       <Body />
+      <Footer />
     </div>
   );
 }
