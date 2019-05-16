@@ -2,7 +2,7 @@ import React from "react";
 
 function Body() {
   return (
-    <div class="Body-container">
+    <div class="body-container">
       <div>
         A personal UX designer portfolio website is a way for you to be yourself
         and tell your story. Here you'll find top 19 hand-selected portfolios
