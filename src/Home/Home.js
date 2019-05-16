@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-function Header() {
+export default function Home() {
   return (
     <div className="App">
       <h1>Vivienne Owusu-Ansah</h1>
@@ -9,5 +9,3 @@ function Header() {
     </div>
   );
 }
-
-export default Header;

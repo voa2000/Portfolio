@@ -1,11 +1,13 @@
-import React from 'react';
-import Main from './Main';
-import './App.css';
-
+import React from "react";
+import "./App.css";
+//import { HashRouter } from "react-router-dom";
+import Navbar from "./Navbar/Navbar";
+import Body from "./Body/Body";
 function App() {
   return (
     <div className="App">
-      <Main />
+      <Navbar />
+      <Body />
     </div>
   );
 }
