@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.container div {
+.container > div {
   background-color: rgb(48, 28, 3);
   font-size: 1rem;
   color: wheat;

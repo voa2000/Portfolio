@@ -1,12 +1,12 @@
-.Bodycontainer {
+.Body-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 300px;
 }
-.container div {
+.Body-container div {
   background-color: rgb(126, 74, 11);
   font-size: 1rem;
   color: wheat;
   padding: 2em;
-  grid-gap: 3em;
+  grid-gap: 1em;
 }
