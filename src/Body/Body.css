@@ -1,12 +1,33 @@
 .body-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 300px;
+  box-sizing: border-box;
+  padding: 0 5%;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
 }
-.body-container div {
-  background-color: rgb(126, 74, 11);
-  font-size: 1rem;
-  color: wheat;
-  padding: 2em;
-  grid-gap: 1em;
+.body-main-photo {
+  object-fit: cover;
+  box-shadow: 0 5px 15px 3px rgba(63, 60, 60, 0.452);
+  width: 50%;
+  min-height: 100%;
+  margin-right: 2em;
+  flex: 1;
+  transition: all ease-in 0.3s;
+}
+
+.body-main-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px 5px rgba(63, 60, 60, 0.652);
+}
+
+.body-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.body-area-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
