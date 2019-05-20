@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="Navbar">
+    <div className="Navbar background-colors">
       <div className="nav-list">
         <div className="nav-item">
           <Link>About</Link>

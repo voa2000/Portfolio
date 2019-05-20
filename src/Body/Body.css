@@ -26,12 +26,26 @@
   flex-direction: column;
 }
 .body-area-box {
-  flex: 1;
+  flex-basis: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .small-images img {
-  height: 75px;
-  width: 100px;
+  height: 100px;
+  width: 75px;
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links i {
+  color: white;
+  font-size: 3em;
+  padding: 15px;
+  align-items: center;
+  flex-basis: 80%;
+  justify-content: space-between;
 }

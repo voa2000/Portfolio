@@ -1,21 +1,20 @@
 import React from "react";
 import "./Body.css";
 import comp from "./../images/viv.jpg";
-import nodejs from "./../images/nodejs.png";
-import css3 from "./../images/css3.png";
-import heroku from "./../images/heroku.png";
-import mongodb from "./../images/monogodb.jpeg";
-import reactjs from "./../images/reactjs.png";
-import travis from "./../images/TravisCI.png";
+import javascript from "./../images/JavaScripti.png";
+import html from "./../images/html5i.png";
+import nodejs from "./../images/nodejsi.png";
+import css3 from "./../images/css3i.png";
+import react from "./../images/reactjsi.png";
 
 function Body() {
   return (
-    <div className="body-container">
+    <div className="body-container background-colors ">
       <img src={comp} className="body-main-photo" alt="computer" />
       <div className="body-area">
         <div className="body-area-box">
           <h1>Vivienne Owusu-Ansah</h1>
-          <h2>Software Engineer</h2>
+          <h2>JAVASCRIPT/ REACT DEVELOPER</h2>
         </div>
         <div className="body-area-box">
           Enthusiastic Software Developer and Digital Educator with a passion
@@ -25,15 +24,13 @@ function Body() {
           ability to communicate effectively whilst discussing technical
           problems with colleagues and clients at various levels.
           <p />
-          <p />
-          <div className="small-images">
-            <img src={nodejs} alt="javascript" />
-            <img src={css3} alt="javascript" />
-            <img src={heroku} alt="javascript" />
-            <img src={mongodb} alt="javascript" />
-            <img src={reactjs} alt="javascript" />
-            <img src={travis} alt="javascript" />
-          </div>
+        </div>
+        <div className="social-links small-images">
+          <img src={javascript} alt="Javascript" />
+          <img src={html} alt="Javascript" />
+          <img src={react} alt="Javascript" />
+          <img src={css3} alt="Javascript" />
+          <img src={nodejs} alt="Javascript" />
         </div>
       </div>
     </div>
