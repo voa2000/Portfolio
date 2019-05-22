@@ -1,5 +1,5 @@
 import React from "react";
-import "./Landing.css";
+import "../App.css";
 import comp from "./../images/viv.jpg";
 
 function Landing() {
