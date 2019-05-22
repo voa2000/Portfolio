@@ -9,12 +9,14 @@
   background-color: rgb(189, 227, 245);
   font-size: 1rem;
   color: wheat;
+  text-decoration: none;
 }
 
-.nav-list {
+.nav-menu {
   flex: 0.5;
   width: 50%;
   height: 100%;
+  text-decoration: none;
 }
 
 .nav-item {
@@ -26,6 +28,7 @@
   font-weight: bold;
   color: rgba(250, 235, 215, 0.651);
   transition: all ease-in 0.3s;
+  text-decoration: none;
 }
 
 .nav-item:hover {

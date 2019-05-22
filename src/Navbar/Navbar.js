@@ -4,10 +4,10 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="Navbar background-colors">
-      <div className="nav-list">
+    <div className="Navbar">
+      <div className="nav-menu">
         <div className="nav-item">
-          <Link>About</Link>
+          <Link to="#">About</Link>
         </div>
         <div className="nav-item">
           <Link>Skills</Link>
