@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 import { HashRouter as Router } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Main from "./components/Main";
+import Navbar from "./Navbar/Navbar";
+import Footer from "./Footer/Footer";
+import Main from "./Main";
 
 function App() {
   return (

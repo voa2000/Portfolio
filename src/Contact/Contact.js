@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../App.css";
+import "./Contact.css";
 import viv from "../images/viv.jpg";
 
 export default class Contact extends Component {
