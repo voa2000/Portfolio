@@ -2,9 +2,9 @@ import React from "react";
 import "./Landing.css";
 import comp from "./../images/viv.jpg";
 
-function Landing() {
+export default function Landing() {
   return (
-    <div className="body-container background-colors ">
+    <div className="body-container">
       <img src={comp} className="body-main-photo" alt="computer" />
       <div className="body-area">
         <div className="body-area-box">
@@ -24,5 +24,3 @@ function Landing() {
     </div>
   );
 }
-
-export default Landing;

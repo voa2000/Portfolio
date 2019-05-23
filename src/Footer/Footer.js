@@ -18,6 +18,9 @@ export default function Footer() {
           <a href="https://twitter.com/voa2000">
             <i className="fa fa-twitter-square" aria-hidden="true" />
           </a>
+          <a href="https://skype.com/voa2000">
+            <i className="fa fa-skype" aria-hidden="true" />
+          </a>
         </div>
       </div>
     </div>

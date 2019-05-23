@@ -7,16 +7,16 @@ function Navbar() {
     <div className="Navbar">
       <div className="nav-menu">
         <div className="nav-item">
-          <Link to="#">About</Link>
+          <Link to="/about">About</Link>
         </div>
         <div className="nav-item">
-          <Link>Skills</Link>
+          <Link to="/skills">Skills</Link>
         </div>
         <div className="nav-item">
-          <Link>Projects</Link>
+          <Link to="/projects">Projects</Link>
         </div>
         <div className="nav-item">
-          <Link>Contact</Link>
+          <Link to="/contact">Contact</Link>
         </div>
       </div>
     </div>

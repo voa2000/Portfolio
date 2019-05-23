@@ -1,26 +1,26 @@
-import React, { Component } from "react";
-import "./Contact.css";
-import viv from "../images/viv.jpg";
+import React from "react";
+import "../LandingPage/Landing.css";
+import comp from "./../images/viv.jpg";
 
-export default class Contact extends Component {
-  render() {
-    return (
-      <div className="contact-body">
-        <div className="contact-grid">
-          <div col={6}>
-            <h2>Vivienne Owusu-Ansah</h2>
-            <img src={viv} alt="Pic of Vivienne" />
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book.
-            </p>
-          </div>
-
-          <h2>Contact Me</h2>
-          <hr />
+export default function Landing() {
+  return (
+    <div className="body-container">
+      <img src={comp} className="body-main-photo" alt="computer" />
+      <div className="body-area">
+        <div className="body-area-box">
+          <h1>Vivienne Owusu-Ansah</h1>
+          <h2>Software Developer</h2>
+        </div>
+        <div className="body-area-box">
+          Enthusiastic Software Developer and Digital Educator with a passion
+          for the latest digital trends and open source technologies with over
+          20 years IT experience. <br />I have good problem-solving skills in
+          various technologies especially Modern JavaScript (React), I have the
+          ability to communicate effectively whilst discussing technical
+          problems with colleagues and clients at various levels.
+          <p />
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
