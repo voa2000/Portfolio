@@ -1,14 +1,14 @@
 import React from "react";
-import "../LandingPage/Landing.css";
+import "./Styles.css";
 import comp from "./../images/viv.jpg";
 
-function Landing() {
+export default function Landing() {
   return (
     <div className="body-container">
       <img src={comp} className="body-main-photo" alt="computer" />
       <div className="body-area">
         <div className="body-area-box">
-          <h1>Projects</h1>
+          <h1>Vivienne Owusu-Ansah</h1>
           <h2>Software Developer</h2>
         </div>
         <div className="body-area-box">
@@ -24,5 +24,3 @@ function Landing() {
     </div>
   );
 }
-
-export default Landing;

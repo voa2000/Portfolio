@@ -9,16 +9,17 @@
   font-size: 1rem;
   color: wheat;
   text-decoration: none;
-  background: #fc466b; /* fallback for old browsers */
+
+  background: #00b09b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #3f5efb,
-    #fc466b
+    #96c93d,
+    #00b09b
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #3f5efb,
-    #fc466b
+    #96c93d,
+    #00b09b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -36,14 +37,14 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  color: rgba(250, 235, 215, 0.651);
+  color: rgba(95, 206, 129, 0.651);
   transition: all ease-in 0.3s;
   text-decoration: none;
 }
 
 .nav-item:hover {
   cursor: pointer;
-  background-color: rgb(6, 84, 116);
+  background-color: #96c93d;
 }
 .nav-item::selection {
   cursor: pointer;
