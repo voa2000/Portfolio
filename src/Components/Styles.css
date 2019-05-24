@@ -79,3 +79,9 @@ body,
   flex-basis: 80%;
   justify-content: space-between;
 }
+.grid {
+  padding-top: 20px;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 1em;
+}

@@ -1,24 +1,24 @@
 import React from "react";
 import "./Styles.css";
-import comp from "./../images/viv.jpg";
+import kodflix from "./../images/kodflix.png";
 
 export default function Landing() {
   return (
     <div className="body-container">
-      <img src={comp} className="body-main-photo" alt="computer" />
       <div className="body-area">
-        <div className="body-area-box">
-          <h1>Vivienne Owusu-Ansah</h1>
-          <h2>Software Developer</h2>
-        </div>
-        <div className="body-area-box">
-          Enthusiastic Software Developer and Digital Educator with a passion
-          for the latest digital trends and open source technologies with over
-          20 years IT experience. <br />I have good problem-solving skills in
-          various technologies especially Modern JavaScript (React), I have the
-          ability to communicate effectively whilst discussing technical
-          problems with colleagues and clients at various levels.
-          <p />
+        <h1>Projects</h1>
+        <div className="grid">
+          <div>
+            This is an application created using React, javascript, HTML, CSS,
+            Express and Mongodb.
+          </div>
+          <div style={{ alignItems: "center" }}>
+            <img
+              style={{ height: "275px", width: "375px" }}
+              src={kodflix}
+              alt="CSS Logo"
+            />
+          </div>
         </div>
       </div>
     </div>

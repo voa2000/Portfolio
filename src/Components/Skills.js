@@ -1,24 +1,55 @@
 import React from "react";
 import "./Styles.css";
-import comp from "./../images/viv.jpg";
+import react from "./../images/react.png";
+import javascript from "./../images/javascript.png";
+import HTML from "./../images/HTML.png";
+import GitHub from "./../images/GtiHub.png";
+import Heroku from "./../images/heroku.png";
+import node from "./../images/node.png";
 
 export default function Landing() {
   return (
     <div className="body-container">
-      <img src={comp} className="body-main-photo" alt="computer" />
       <div className="body-area">
-        <div className="body-area-box">
-          <h1>Vivienne Owusu-Ansah</h1>
-          <h2>Software Developer</h2>
-        </div>
-        <div className="body-area-box">
-          Enthusiastic Software Developer and Digital Educator with a passion
-          for the latest digital trends and open source technologies with over
-          20 years IT experience. <br />I have good problem-solving skills in
-          various technologies especially Modern JavaScript (React), I have the
-          ability to communicate effectively whilst discussing technical
-          problems with colleagues and clients at various levels.
-          <p />
+        <h1>Skills</h1>
+        <div className="grid">
+          <div>
+            I have experience as a software developer creating responsive
+            websites of a high quality. Below are the technologies I have had
+            experience in developing applications with.
+          </div>
+          <div style={{ alignItems: "center" }}>
+            <img
+              style={{ height: "75px", width: "75px" }}
+              src={react}
+              alt="CSS Logo"
+            />
+            <img
+              style={{ height: "75px", width: "75px" }}
+              src={javascript}
+              alt="CSS Logo"
+            />
+            <img
+              style={{ height: "75px", width: "75px" }}
+              src={HTML}
+              alt="HTML Logo"
+            />
+            <img
+              style={{ height: "75px", width: "75px" }}
+              src={Heroku}
+              alt="HTML Logo"
+            />
+            <img
+              style={{ height: "75px", width: "75px" }}
+              src={GitHub}
+              alt="HTML Logo"
+            />
+            <img
+              style={{ height: "75px", width: "75px" }}
+              src={node}
+              alt="HTML Logo"
+            />
+          </div>
         </div>
       </div>
     </div>
