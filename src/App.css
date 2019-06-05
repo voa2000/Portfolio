@@ -1,23 +1,39 @@
-a {
-  text-decoration: none;
+* {
+  font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+   text-align: center
 }
-body {
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+
+.nav-bar-spacer {
+   background-color: rgba(28,28,28);
+   height: 6vh;
+
 }
-.container {
-  width: 100%;
-  height: 100%;
-  padding-top: 4em;
-  background: #fc466b; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #3f5efb,
-    #fc466b
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #3f5efb,
-    #fc466b
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+@media only screen and (max-width: 750px) {
+   .cse .gsc-control-cse, .gsc-control-cse {
+       display: none;
+   }
+}
+
+@media only screen and (max-width: 500px) {   
+   .nav-bar-spacer {
+      height: 4vh;
+   }
+   .navigation-title h1 {
+      font-size: 1.5em;
+  }
+
+   .header-container {
+      height: 96vh;
+   }
+
+   .overlay h1 {
+      font-size: 200%;
+      padding: 2em;
+  }
+  
+  .overlay h3 {
+      font-size: 150%;
+  }
 }

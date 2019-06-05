@@ -1,26 +1,33 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 import "./App.css";
-import Navbar from "./Navbar/Navbar";
-import Footer from "./Footer/Footer";
-import Home from "./Components/Home";
-import Contact from "./Components/Contact";
-import About from "./Components/About";
-import Projects from "./Components/Projects";
-import Skills from "./Components/Skills";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import NotFound from "./components/NotFound";
+import NavbarSpacer from "./components/NavbarSpacer";
+
 function App() {
   return (
-    <div className="container">
-      <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/skills" component={Skills} />
-      </Switch>
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <div>
+          <Navbar />
+          <NavbarSpacer />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/About" component={About} />
+            <Route exact path="/Projects" component={Projects} />
+            <Route exact path="/Contact" component={Contact} />
+            <Route exact path="/NotFound" component={NotFound} />
+          </Switch>
+          <Footer />
+        </div>
+      </div>
+    </Router>
   );
 }
 

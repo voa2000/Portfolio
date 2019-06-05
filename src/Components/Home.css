@@ -1,0 +1,30 @@
+.home-container {
+  background-image: linear-gradient(rgba(1, 10, 12, 0.4), rgba(2, 0, 0, 0.95)),
+    url("../images/londonlandmarks.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 94vh;
+}
+
+.about-container {
+  background-color: rgba(87, 83, 83, 0.85);
+  background-size: cover;
+  background-position: center;
+  height: 94vh;
+}
+
+.overlay {
+  color: whitesmoke;
+  padding-top: 4em;
+}
+
+.overlay h1 {
+  font-size: 250%;
+  font-weight: 600;
+  padding: 1em;
+}
+
+.overlay h2 {
+  font-size: 150%;
+  font-weight: 150;
+}

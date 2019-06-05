@@ -1,0 +1,43 @@
+.about-container {
+  background-image: linear-gradient(rgba(5, 5, 5, 0.8), rgb(14, 1, 1)),
+    url("../images/londonlandmarkswest.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 94vh;
+}
+.projects-container {
+  background-image: linear-gradient(rgba(5, 5, 5, 0.8), rgb(14, 1, 1)),
+    url("../images/londonlandmarksac.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 94vh;
+}
+.contact-container {
+  background-image: linear-gradient(rgba(5, 5, 5, 0.8), rgb(14, 1, 1)),
+    url("../images/enfieldtown.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 94vh;
+}
+.overlay {
+  color: whitesmoke;
+  padding-top: 1.5em;
+}
+.about-container h1 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.about-techstack {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.about-techstack-item {
+  flex: 1;
+}
+@media only screen and (min-width: 1700px) {
+  .about-techstack {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
