@@ -42,3 +42,8 @@
 .navigation-title a:active {
   color: red;
 }
+@media only screen and (min-width: 1700px) {
+  .navigation {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

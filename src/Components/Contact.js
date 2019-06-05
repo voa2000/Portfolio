@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="overlay">
         <h1>Contact Me</h1>
         <h2>
-          Thanks you for visiting my portfolio. Your feedback will be much
+          Thank you for visiting my portfolio. Your feedback will be much
           appreciated. <hr />
           You can contact me using the links on the footer or at
           vivienneoansah@gmail.com
