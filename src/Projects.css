@@ -1,0 +1,38 @@
+.project-background {
+  background-image: linear-gradient(rgba(5, 5, 5, 0.8), rgb(14, 1, 1)),
+    url("./images/londonlandmarkswest.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 94vh;
+}
+img {
+  height: 15em;
+  width: 13em;
+}
+
+.project-box {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+}
+.project-title {
+  font-size: 2em;
+  padding: 0.3em;
+}
+.project-items {
+  border: 14px solid rgb(44, 42, 42);
+  height: 400px;
+  text-align: center;
+  flex: 1;
+}
+.project-details {
+  font-size: 0.7em;
+  color: blanchedalmond;
+  padding: 0.4rem;
+}
+@media only screen and (max-width: 700px) {
+  .projects-box {
+    display: flex;
+    flex-direction: column;
+  }
+}
