@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
-export default function Projects() {
+
+function Projects() {
   return (
     <div className="projects-container">
       <div className="overlay">
@@ -10,3 +11,4 @@ export default function Projects() {
     </div>
   );
 }
+export default Projects;
