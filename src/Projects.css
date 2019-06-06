@@ -31,9 +31,12 @@ img {
   color: blanchedalmond;
   padding: 0.5rem;
 }
-@media only screen and (max-width: 750px) {
-  .projects-box {
-    display: flex;
+
+@media only screen and (max-width: 500px) {
+  .project-box {
     flex-direction: column;
+  }
+  .project-background {
+    height: 100%;
   }
 }
