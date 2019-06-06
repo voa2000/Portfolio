@@ -1,20 +1,20 @@
 .about-container {
   background-image: linear-gradient(rgba(5, 5, 5, 0.8), rgb(14, 1, 1)),
-    url("../images/londonlandmarkswest.jpg");
+    url("./images/londonlandmarkswest.jpg");
   background-size: cover;
   background-position: center;
   height: 94vh;
 }
 .projects-container {
   background-image: linear-gradient(rgba(5, 5, 5, 0.8), rgb(14, 1, 1)),
-    url("../images/londonlandmarksac.jpg");
+    url("./images/londonlandmarksac.jpg");
   background-size: cover;
   background-position: center;
   height: 94vh;
 }
 .contact-container {
   background-image: linear-gradient(rgba(5, 5, 5, 0.8), rgb(14, 1, 1)),
-    url("../images/enfieldtown.jpg");
+    url("./images/enfieldtown.jpg");
   background-size: cover;
   background-position: center;
   height: 94vh;
