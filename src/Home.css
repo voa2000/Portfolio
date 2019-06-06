@@ -15,13 +15,12 @@
 
 .overlay {
   color: whitesmoke;
-  padding-top: 4em;
+  padding-top: 2em;
 }
 
 .overlay h1 {
   font-size: 250%;
   font-weight: 600;
-  padding: 1em;
 }
 
 .overlay h2 {

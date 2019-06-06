@@ -9,6 +9,10 @@ export default function Contact() {
         <h2>
           Thank you for visiting my portfolio. Your feedback will be much
           appreciated. <hr />
+          <div className="contact-text ">
+            I am currently seeking an opportunity to join a dynamic organization
+            in London as a Frontend (React) Developer.{" "}
+          </div>
           You can contact me using the links on the footer or at
           vivienneoansah@gmail.com
         </h2>

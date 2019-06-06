@@ -36,6 +36,12 @@
 .about-techstack-item {
   flex: 1;
 }
+.contact-text {
+  font-size: 1em;
+  padding: 2em;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+}
 @media only screen and (min-width: 1700px) {
   .about-techstack {
     grid-template-columns: 1fr 1fr 1fr;
