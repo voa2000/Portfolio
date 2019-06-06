@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import Navbar from "./Navbar";
+import Home from "./Home";
 import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import NotFound from "./components/NotFound";
-import NavbarSpacer from "./components/NavbarSpacer";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import NotFound from "./NotFound";
+import NavbarSpacer from "./NavbarSpacer";
 
 function App() {
   return (
