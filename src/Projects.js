@@ -17,11 +17,12 @@ function Projects() {
               Tech stack include HTML, CSS, React, JavaScript, Heroku
             </div>
             <div className="project-image">
-              <img src={Kodflix} alt="Kodflix App" />
+              <a href="http://vivkodflix.herokuapp.com/">
+                <img src={Kodflix} alt="Kodflix App" />
+              </a>
             </div>
-            <div className="project-links">
-              <a href="https://github.com/voa2000/kodflix">GitHub </a> |
-              <a href="http://vivkodflix.herokuapp.com/">Live Site</a>
+            <div className="project-git-links">
+              <a href="https://github.com/voa2000/kodflix">GitHub Repo</a>
             </div>
             <div className="project-details">
               Fetches data from a backend JSON data object and serve it to the
@@ -34,13 +35,14 @@ function Projects() {
               Tech stack include React, JavaScript, NodeJS, RestAPI, GCP
             </div>
             <div className="project-image">
-              <img src={alphaprops} alt="Alpha App" />
+              <a href="https://my-project-alpha-properties.appspot.com/">
+                <img src={alphaprops} alt="Alpha App" />
+              </a>
             </div>
             <div className="project-links">
-              <a href="https://github.com/voa2000/alpha-props">GitHub </a> |
-              <a href="https://my-project-alpha-properties.appspot.com/">
-                Live Site
-              </a>
+              <div className="project-git-links">
+                <a href="https://github.com/voa2000/alpha-props">GitHub Repo</a>
+              </div>
             </div>
             <div className="project-details">
               Fetches data from a backend JSON data object and GoogleMaps API
