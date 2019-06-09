@@ -7,7 +7,7 @@ function Navbar() {
     <div className="navigation">
       <div className="navigation-title">
         <h1 className="navigation-title">
-          <a href="https://www.linkedin.com/in/vivienne-o-6bb8364a/">
+          <a href="https://www.linkedin.com/in/vivienneansah/">
             <i class="fab fa-linkedin fa-2x" />
           </a>
           <a href="https://github.com/voa2000">

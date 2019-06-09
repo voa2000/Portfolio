@@ -14,7 +14,7 @@ function Projects() {
           <div className="project-items">
             <div className="project-title">Kodflix App</div>
             <div className="project-details">
-              Tech stack include HTML, CSS, React, JavaScript, Heroku
+              Tech stack include HTML, CSS, React, JavaScript. Hosted on Heroku
             </div>
             <div className="project-image">
               <a href="http://vivkodflix.herokuapp.com/">
@@ -25,14 +25,15 @@ function Projects() {
               <a href="https://github.com/voa2000/kodflix">GitHub Repo</a>
             </div>
             <div className="project-details">
-              Fetches data from a backend JSON data object and serve it to the
-              frontend.
+              Fetches data from a backend JSON data object using Express and
+              serve it to the frontend.
             </div>
           </div>
           <div className="project-items">
             <div className="project-title">Alpha App</div>
             <div className="project-details">
-              Tech stack include React, JavaScript, NodeJS, RestAPI, GCP
+              Tech stack include React, JavaScript, NodeJS, RestAPI. Hosted on
+              GCP
             </div>
             <div className="project-image">
               <a href="https://my-project-alpha-properties.appspot.com/">
@@ -45,9 +46,9 @@ function Projects() {
               </div>
             </div>
             <div className="project-details">
-              Fetches data from a backend JSON data object and GoogleMaps API
-              and serve it to the frontend. It also include smart searching a
-              property.
+              Fetches data from a backend JSON data object using Express and
+              GoogleMaps API and serve it to the frontend. It also include smart
+              searching a property.
             </div>
           </div>
         </div>

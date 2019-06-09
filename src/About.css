@@ -3,21 +3,15 @@
     url("./images/londonlandmarkswest.jpg");
   background-size: cover;
   background-position: center;
-  height: 94vh;
+  height: 100vh;
 }
-.projects-container {
-  background-image: linear-gradient(rgba(5, 5, 5, 0.8), rgb(14, 1, 1)),
-    url("./images/londonlandmarksac.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 94vh;
-}
+
 .contact-container {
   background-image: linear-gradient(rgba(5, 5, 5, 0.8), rgb(14, 1, 1)),
     url("./images/enfieldtown.jpg");
   background-size: cover;
   background-position: center;
-  height: 94vh;
+  height: 100vh;
 }
 .overlay {
   color: whitesmoke;
