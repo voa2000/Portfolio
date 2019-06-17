@@ -2,40 +2,28 @@ import React from "react";
 import "./About.css";
 export default function About() {
   return (
-    <div className="about-container">
-      <div className="overlay">
+    <div className='about-container'>
+      <div className='overlay'>
         <h1>About Me</h1>
         <h2>
-          Enthusiastic Software Developer and Digital Educator with a passion
-          for the latest digital trends and open source technologies with over
-          20 years IT experience.{" "}
+          I am a Software Developer and Digital Educator who embraces automation
+          over manual effort, loves coding and networking, with a passion for
+          the latest technological innovations, seeking an opportunity to join
+          an Agile Software Development Engineering Team as a Site Reliability
+          and DevOps Engineer.
+          <br />
+          <br />I practice DevOps culture and apply strong technical, functional
+          and analytical skills and operate with a strong sense of urgency and
+          thrive in a fast-paced setting in order to solve business problems
+          expediently. With excellent problem-solving skills, problems are
+          opportunities to improve scalability and efficiency, I have the
+          ability to communicate effectively whilst discussing technical
+          problems and solutions with colleagues and clients at all levels.{" "}
+          <br />
+          <br />I am a good listener and fast learner open to learning newer
+          technologies in order to develop the skills required to build world
+          class applications and infrastructure for clients.
         </h2>
-        <h2>
-          I have good problem-solving skills in various technologies especially
-          using Modern JavaScript and React to build mobile responsive
-          applications, I have the ability to communicate effectively whilst
-          discussing technical problems with colleagues and clients at various
-          levels.
-        </h2>
-        <h2>Below is my Tech Stack</h2>
-        <div className="about-techstack">
-          <div className="about-techstack-item">
-            <i className="fab fa-react fa-4x" aria-hidden="true" />
-          </div>
-          <div className="about-techstack-item">
-            <i className="fab fa-html5 fa-4x" aria-hidden="true" />
-          </div>
-          <div className="about-techstack-item">
-            <i className="fab fa-node fa-4x" aria-hidden="true" />
-          </div>
-          <div className="about-techstack-item">
-            <i className="fab fa-css3 fa-4x" aria-hidden="true" />
-          </div>
-
-          <div className="about-techstack-item">
-            <i className="fab fa-aws fa-4x" aria-hidden="true" />
-          </div>
-        </div>
       </div>
     </div>
   );

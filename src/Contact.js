@@ -13,8 +13,8 @@ export default function Contact() {
             I am currently seeking an opportunity to join a dynamic organization
             in London as a Full Stack Developer.{" "}
           </div>
-          Please contact me on 07960 866 447 or using the links on the footer or
-          email me at vivienneoansah@gmail.com
+          Please contact me on 07960 866 447 or using the links below or email
+          me at vivienneoansah@gmail.com
         </h2>
         <div className="Footer-container">
           <div className="social-links ">
