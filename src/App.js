@@ -12,16 +12,16 @@ import NavbarSpacer from "./NavbarSpacer";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className='App'>
         <div>
           <Navbar />
           <NavbarSpacer />
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/About" component={About} />
-            <Route exact path="/Projects" component={Projects} />
-            <Route exact path="/Contact" component={Contact} />
-            <Route exact path="/NotFound" component={NotFound} />
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/projects' component={Projects} />
+            <Route exact path='/contact' component={Contact} />
+            <Route exact path='/notFound' component={NotFound} />
           </Switch>
         </div>
       </div>
