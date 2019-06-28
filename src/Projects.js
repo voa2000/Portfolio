@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import Kodflix from "./images/kodflix.jpg";
 import alphaprops from "./images/alphaprops.jpg";
-//Create an objects to store project details
+//Create an object to store project details
 function Projects() {
   return (
     <div className='project-background'>
